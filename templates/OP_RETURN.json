@@ -23,21 +23,27 @@
 	},
 	"PRODUCT": {
 		"NAME": "SOME PRODUCT NAME",
-		"CATEGORY": "CAT",
-		"CATEGORY2": "CAT",
-		"CATEGORY3": "CAT",
-		"CATEGORY4": "CAT",
-		"CATEGORY5": "CAT",
-		"CERT_DATE": "SOMEDATE",
-		"CERT_ID": "SOMEIDOFCERT",
-		"CERT_LEVEL": "???",
+		"CATEGORY": "CAT...........",
+		"CATEGORY2": "CAT...........",
+		"CATEGORY3": "CAT...........",
+		"CATEGORY4": "CAT...........",
+		"CATEGORY5": "CAT...........",
+		"CERT_DATE": "SOMEDATE....",
+		"CERT_ID": "SOME_ID_OF_CERT......",
+		"CERT_LEVEL": "???.......",
 		"CERT_DATE_EXP": "EXPIRATION OF CERT",
-		"DESCRIPTION": "SOME DESC",
+		"DESCRIPTION": "SOME DESC ....................................
+		..............................................................
+		..............................................................
+		..............................................................
+		..............................................................
+		",
 		"WWW": "https://..../PRODUCT_NAME.html",
-		"PRODUCT_IMAGE_URL": "https://....",
-		"PRODUCT_IMAGE_URL2": "https://....",
-		"PRODUCT_IMAGE_URL3": "https://....",
-		"PRODUCT_IMAGE_URL4": "https://....",
-		"PRODUCT_IMAGE_URL5": "https://...."
+		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
+		"PRODUCT_IMAGE_URL": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE1.svg",
+		"PRODUCT_IMAGE_URL2": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE2.png",
+		"PRODUCT_IMAGE_URL3": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE3.jpg",
+		"PRODUCT_IMAGE_URL4": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE4.tiff",
+		"PRODUCT_IMAGE_URL5": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE5.bmp"
 	}
 }
