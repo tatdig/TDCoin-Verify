@@ -7,8 +7,10 @@
 		"FAX": "+00000000000",
 		"COUNTRY": "SOME COUNTRY",
 		"SUB_COUNTRY": "SOME SUB_COUNTRY like state or province ...",
-		"ADDRESS": "SOME ADDRESS OF SOME ORG NAME LTD",
-		"ADDRESS2": "SOME ADDRESS2 OF SOME ORG NAME LTD"
+		"ADDRESS": [
+			"SOME ADDRESS OF SOME ORG NAME LTD",
+			"SOME ADDRESS2 OF SOME ORG NAME LTD"
+		]
 	},
 	"ORG_RECIPIENT": {
 		"NAME": "SOME ORG NAME LTD",
@@ -18,8 +20,10 @@
 		"FAX": "+00000000000",
 		"COUNTRY": "SOME COUNTRY",
 		"SUB_COUNTRY": "SOME SUB_COUNTRY like state or province ...",
-		"ADDRESS": "SOME ADDRESS OF SOME ORG NAME LTD",
-		"ADDRESS2": "SOME ADDRESS2 OF SOME ORG NAME LTD"
+		"ADDRESS": [
+			"SOME ADDRESS OF SOME ORG NAME LTD",
+			"SOME ADDRESS2 OF SOME ORG NAME LTD"
+		]
 	},
 	"PRODUCT": {
 		"NAME": "SOME PRODUCT NAME",
@@ -32,18 +36,16 @@
 		"CERT_ID": "SOME_ID_OF_CERT......",
 		"CERT_LEVEL": "???.......",
 		"CERT_DATE_EXP": "EXPIRATION OF CERT",
-		"DESCRIPTION": "SOME DESC ....................................
-		..............................................................
-		..............................................................
-		..............................................................
-		..............................................................
-		",
+		"DESCRIPTION": "SOME DESC ............................................................................................................................................................................................................................................................................................",
 		"WWW": "https://..../PRODUCT_NAME.html",
 		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
-		"PRODUCT_IMAGE_URL": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE1.svg",
-		"PRODUCT_IMAGE_URL2": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE2.png",
-		"PRODUCT_IMAGE_URL3": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE3.jpg",
-		"PRODUCT_IMAGE_URL4": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE4.tiff",
-		"PRODUCT_IMAGE_URL5": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE5.bmp"
+		"PRODUCT_IMAGES": [
+			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE1.svg",
+			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE2.png",
+			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE3.jpg",
+			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE4.tiff",
+			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE5.bmp",
+			"..."
+		]
 	}
 }
