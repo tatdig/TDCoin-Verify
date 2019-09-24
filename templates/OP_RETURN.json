@@ -44,7 +44,7 @@
 		"DIET":[
 			"...","..."
 		],
-		"FAITH":["neutral","muslim","cristian","..."],
+		"FAITH":["neutral","muslim","jewish","cristian","..."],
 		"CERT_DATE": "SOMEDATE....",
 		"CERT_ID": "SOME_ID_OF_CERT......",
 		"CERT_LEVEL": "???.......",
