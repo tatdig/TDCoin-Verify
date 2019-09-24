@@ -9,7 +9,7 @@
 		"SUB_COUNTRY": "SOME SUB_COUNTRY like state or province ...",
 		"ADDRESS": [
 			"SOME ADDRESS OF SOME ORG NAME LTD",
-			"SOME ADDRESS2 OF SOME ORG NAME LTD"
+			"SOME ADDRESS EXTRA OF SOME ORG NAME LTD"
 		]
 	},
 	"ORG_RECIPIENT": {
@@ -22,7 +22,7 @@
 		"SUB_COUNTRY": "SOME SUB_COUNTRY like state or province ...",
 		"ADDRESS": [
 			"SOME ADDRESS OF SOME ORG NAME LTD",
-			"SOME ADDRESS2 OF SOME ORG NAME LTD"
+			"SOME ADDRESS EXTRA OF SOME ORG NAME LTD"
 		]
 	},
 	"PRODUCT": {
@@ -41,6 +41,9 @@
 			"joules": 2000,
 			"...": 0
 		},
+		"DIET":[
+			"...","..."
+		],
 		"FAITH":["neutral","muslim","cristian","..."],
 		"CERT_DATE": "SOMEDATE....",
 		"CERT_ID": "SOME_ID_OF_CERT......",
