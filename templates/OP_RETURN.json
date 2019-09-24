@@ -1,0 +1,43 @@
+{
+	"ORG_ISSUER": {
+		"NAME": "SOME ORG NAME LTD",
+		"WWW": "https://www.SOMEORGNAMELTD.org/",
+		"EMAIL": "info@SOMEORGNAMELTD.org",
+		"PHONE": "+00000000000",
+		"FAX": "+00000000000",
+		"COUNTRY": "SOME COUNTRY",
+		"SUB_COUNTRY": "SOME SUB_COUNTRY like state or province ...",
+		"ADDRESS": "SOME ADDRESS OF SOME ORG NAME LTD",
+		"ADDRESS2": "SOME ADDRESS2 OF SOME ORG NAME LTD"
+	},
+	"ORG_RECIPIENT": {
+		"NAME": "SOME ORG NAME LTD",
+		"WWW": "https://www.SOMEORGNAMELTD.org/",
+		"EMAIL": "info@SOMEORGNAMELTD.org",
+		"PHONE": "+00000000000",
+		"FAX": "+00000000000",
+		"COUNTRY": "SOME COUNTRY",
+		"SUB_COUNTRY": "SOME SUB_COUNTRY like state or province ...",
+		"ADDRESS": "SOME ADDRESS OF SOME ORG NAME LTD",
+		"ADDRESS2": "SOME ADDRESS2 OF SOME ORG NAME LTD"
+	},
+	"PRODUCT": {
+		"NAME": "SOME PRODUCT NAME",
+		"CATEGORY": "CAT",
+		"CATEGORY2": "CAT",
+		"CATEGORY3": "CAT",
+		"CATEGORY4": "CAT",
+		"CATEGORY5": "CAT",
+		"CERT_DATE": "SOMEDATE",
+		"CERT_ID": "SOMEIDOFCERT",
+		"CERT_LEVEL": "???",
+		"CERT_DATE_EXP": "EXPIRATION OF CERT",
+		"DESCRIPTION": "SOME DESC",
+		"WWW": "https://..../PRODUCT_NAME.html",
+		"PRODUCT_IMAGE_URL": "https://....",
+		"PRODUCT_IMAGE_URL2": "https://....",
+		"PRODUCT_IMAGE_URL3": "https://....",
+		"PRODUCT_IMAGE_URL4": "https://....",
+		"PRODUCT_IMAGE_URL5": "https://...."
+	}
+}
