@@ -1,8 +1,8 @@
 {
 	"ORG_ISSUER": {
 		"NAME": "SOME ORG NAME LTD",
-		"WWW": "https://www.SOMEORGNAMELTD.org/",
-		"EMAIL": "info@SOMEORGNAMELTD.org",
+		"WWW": "https://www.SOMEISSUERNAMELTD.org/",
+		"EMAIL": "info@SOMEISSUERNAMELTD.org",
 		"PHONE": "+00000000000",
 		"FAX": "+00000000000",
 		"COUNTRY": "SOME COUNTRY",
@@ -14,8 +14,8 @@
 	},
 	"ORG_RECIPIENT": {
 		"NAME": "SOME ORG NAME LTD",
-		"WWW": "https://www.SOMEORGNAMELTD.org/",
-		"EMAIL": "info@SOMEORGNAMELTD.org",
+		"WWW": "https://www.SOMERECIPIENTNAMELTD.org/",
+		"EMAIL": "info@SOMERECIPIENTNAMELTD.org",
 		"PHONE": "+00000000000",
 		"FAX": "+00000000000",
 		"COUNTRY": "SOME COUNTRY",
@@ -27,24 +27,34 @@
 	},
 	"PRODUCT": {
 		"NAME": "SOME PRODUCT NAME",
+		"DESCRIPTION": "SOME DESC ............................................................................................................................................................................................................................................................................................",
 		"CATEGORY": "CAT...........",
 		"CATEGORY2": "CAT...........",
 		"CATEGORY3": "CAT...........",
 		"CATEGORY4": "CAT...........",
 		"CATEGORY5": "CAT...........",
+		"INGRIDIENTS":[
+			"wheat", "egg", "milk", "..."
+		],
+		"ENERGY": {
+			"calories": 534,
+			"joules": 2000,
+			"...": 0
+		},
+		"FAITH":["neutral","muslim","cristian","..."],
 		"CERT_DATE": "SOMEDATE....",
 		"CERT_ID": "SOME_ID_OF_CERT......",
 		"CERT_LEVEL": "???.......",
 		"CERT_DATE_EXP": "EXPIRATION OF CERT",
-		"DESCRIPTION": "SOME DESC ............................................................................................................................................................................................................................................................................................",
-		"WWW": "https://..../PRODUCT_NAME.html",
-		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
+		"COUNTRY_OF_ORIGIN": "SOME COUNTRY like Tatar to be able to write made in TATAR",
+		"WWW": "https://www.SOMERECIPIENTNAMELTD.org/.../PRODUCT_NAME.html",
+		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEISSUERNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
 		"PRODUCT_IMAGES": [
-			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE1.svg",
-			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE2.png",
-			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE3.jpg",
-			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE4.tiff",
-			"https://www.SOMEORGNAMELTD.org/PRODUCT_NAME/IMAGE5.bmp",
+			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE1.svg",
+			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE2.png",
+			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE3.jpg",
+			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE4.tiff",
+			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE5.bmp",
 			"..."
 		]
 	}
