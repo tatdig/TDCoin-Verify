@@ -53,6 +53,7 @@
 		"WWW": "https://www.SOMERECIPIENTNAMELTD.org/.../PRODUCT_NAME.html",
 		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEISSUERNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
 		"PRODUCT_IMAGES": [
+			"Images to help identify product",
 			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE1.svg",
 			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE2.png",
 			"https://www.SOMERECIPIENTNAMELTD.org/PRODUCT_NAME/IMAGE3.jpg",
