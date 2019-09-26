@@ -42,13 +42,19 @@
 			"...": 0
 		},
 		"DIET":[
-			"...","..."
+			"...",
+			"..."
 		],
 		"FAITH":["neutral","muslim","jewish","cristian","..."],
 		"CERT_DATE": "SOMEDATE....",
 		"CERT_ID": "SOME_ID_OF_CERT......",
 		"CERT_LEVEL": "???.......",
 		"CERT_DATE_EXP": "EXPIRATION OF CERT",
+		"ADDL_CERT":[
+			"SOME TDCOIN TXID REFERENCE TO ADDITIONAL CERTIFICATION",
+			"8daa2e5b5a9ae8bc3c12a46abd6a37dc11fae46...1da7e08a83c90e247f149a",
+			"..."
+		],
 		"COUNTRY_OF_ORIGIN": "SOME COUNTRY like Tatar to be able to write made in TATAR",
 		"WWW": "https://www.SOMERECIPIENTNAMELTD.org/.../PRODUCT_NAME.html",
 		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEISSUERNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
