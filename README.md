@@ -3,6 +3,6 @@ Project aim to create a service based on TDCoin blockchain to help issue and ver
 Document such as ... 
 Feel free to join the project.
 
-To submit information to TDCoin blockchain please refer to https://github.com/tatdig/BC-short-message
+To submit information to TDCoin blockchain please refer to https://github.com/tatdig/BC-short-message script.
 
 TDCoin Development
