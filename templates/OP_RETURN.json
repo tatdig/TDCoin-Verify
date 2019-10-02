@@ -1,4 +1,5 @@
-{
+{	
+	"DOC_TYPE":0,
 	"ORG_ISSUER": {
 		"NAME": "SOME ORG NAME LTD",
 		"WWW": "https://www.SOMEISSUERNAMELTD.org/",
