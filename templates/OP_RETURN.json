@@ -1,5 +1,5 @@
-{	
-	"DOC_TYPE":0,
+{
+	"DOC_TYPE": 0,
 	"ORG_ISSUER": {
 		"NAME": "SOME ORG NAME LTD",
 		"WWW": "https://www.SOMEISSUERNAMELTD.org/",
@@ -29,12 +29,8 @@
 	"PRODUCT": {
 		"NAME": "SOME PRODUCT NAME",
 		"DESCRIPTION": "SOME DESC ............................................................................................................................................................................................................................................................................................",
-		"CATEGORY": "CAT...........",
-		"CATEGORY2": "CAT...........",
-		"CATEGORY3": "CAT...........",
-		"CATEGORY4": "CAT...........",
-		"CATEGORY5": "CAT...........",
-		"INGRIDIENTS":[
+		"CATEGORY": ["CAT1...........", "CAT2..........", "CAT3...........", "CAT4...........", "CAT5..........."],
+		"INGRIDIENTS": [
 			"wheat", "egg", "milk", "..."
 		],
 		"ENERGY": {
@@ -42,16 +38,16 @@
 			"joules": 2000,
 			"...": 0
 		},
-		"DIET":[
+		"DIET": [
 			"...",
 			"..."
 		],
-		"FAITH":["neutral","muslim","jewish","cristian","..."],
+		"FAITH": ["neutral", "muslim", "jewish", "cristian", "..."],
 		"CERT_DATE": "SOMEDATE....",
 		"CERT_ID": "SOME_ID_OF_CERT......",
 		"CERT_LEVEL": "???.......",
 		"CERT_DATE_EXP": "EXPIRATION OF CERT",
-		"ADDL_CERT":[
+		"ADDL_CERT": [
 			"SOME TDCOIN TXID REFERENCE TO ADDITIONAL CERTIFICATION",
 			"8daa2e5b5a9ae8bc3c12a46abd6a37dc11fae46...1da7e08a83c90e247f149a",
 			"..."
