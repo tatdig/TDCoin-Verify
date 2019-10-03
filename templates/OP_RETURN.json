@@ -30,7 +30,7 @@
 		"NAME": "SOME PRODUCT NAME",
 		"DESCRIPTION": "SOME DESC .................................................................................",
 		"CATEGORY": ["CAT1...........", "CAT2..........", "CAT3...........", "CAT4...........", "CAT5..........."],
-		"INGRIDIENTS": [
+		"INGREDIENTS": [
 			"wheat", "egg", "milk", "..."
 		],
 		"ENERGY": {
