@@ -29,6 +29,7 @@
 	"PRODUCT": {
 		"NAME": "SOME PRODUCT NAME",
 		"DESCRIPTION": "SOME DESC .................................................................................",
+		"AGE_RESTRICTION":14,
 		"CATEGORY": ["CAT1...........", "CAT2..........", "CAT3...........", "CAT4...........", "CAT5..........."],
 		"INGREDIENTS": [
 			"wheat", "egg", "milk", "..."
