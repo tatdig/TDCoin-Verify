@@ -27,16 +27,19 @@ PRODUCT->PRODUCT_IMAGES- pictures URLs of product "array of strings" (If product
 
 ORG_RECIPIENT- declaration of recipient organization if not declared then issuer == recipient
 
-PRODUCT->CATEGORY
+PRODUCT->CATEGORY- "array of strings"
 
-PRODUCT->INGREDIENTS
+PRODUCT->INGREDIENTS- "array of strings"
 
-PRODUCT->ENERGY
+PRODUCT->ENERGY- "array of objects"
 
-PRODUCT->DIET
+PRODUCT->DIET- list of compatible diets "array of strings"
 
-PRODUCT->FAITH
+PRODUCT->FAITH- "array of strings"
 
 DOCUMENT->DOC_ID- issuers internal document identification
 
 DOCUMENT->ADDL_DOC- additional certificates for exmple for ingredients "array of strings"
+
+
+to be continue
