@@ -6,7 +6,7 @@ Mandatory fields:
 
 DOC_TYPE- document type decraration 0 - is certificate "integer"
 
-ORG_ISSUER- object declaraton of issuing organization "object"
+ORG_ISSUER- declaraton of issuing organization "object"
 
 ORG_ISSUER->SUB_COUNTRY- state, province, republic or territory "string"
 
