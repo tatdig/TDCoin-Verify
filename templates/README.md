@@ -1,8 +1,8 @@
-Fields description
+#Fields description
 
 Skipped obvious fields
 
-Mandatory fields:
+#Mandatory fields:
 
 DOC_TYPE- document type decraration 0 - is certificate "integer"
 
@@ -23,7 +23,7 @@ PRODUCT->QR_PRODUCT_IMAGE_URL- qr-image URL "string" (If product object is decla
 PRODUCT->PRODUCT_IMAGES- pictures URLs of product "array of strings" (If product object is declared)
 
 
-Optional fields:
+#Optional fields:
 
 ORG_RECIPIENT- declaration of recipient organization if not declared then issuer == recipient
 
