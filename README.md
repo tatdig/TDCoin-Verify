@@ -4,7 +4,7 @@ Document such as ...
 
 No more counterfeit products!
 
-Json file generator - https://github.com/tatdig/prodverify/json-generator
+Json file generator - https://github.com/tatdig/prodverify/tree/master/json-generator
 
 Feel free to join the project.
 
