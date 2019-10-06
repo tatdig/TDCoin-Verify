@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+	<meta charset="utf-8" />
+	<title>Getting started with JSON Form</title>
+<link rel="stylesheet" href='css/style.css'/>
+<script src="js/brutusin-json-forms.js"></script>
+</head>
+
+<body>
+	<h1>Getting started with JSON Form</h1>
+	<div id="container"></div>
+	<div id="res" class="alert"></div>
+	<button id="getdata" onclick="save()">build json text</button>
+	<div id="result"></div>
+	<script type="text/javascript" src="js/schema.js"></script>
+	<script type="text/javascript">
+	    var BrutusinForms = brutusin["json-forms"];
+	    var bf = BrutusinForms.create(json_schema);
+	    var container = document.getElementById('container');
+	    bf.render(container);
+
+    function save() 
+    {
+    if(!bf.validate()) exit;
+    //window.alert("I am here 1");
+    var jsonBlob = new Blob([JSON.stringify(bf.getData())], { type: 'application/javascript;charset=utf-8' });
+    //window.alert("I am here 2");
+   var link=window.URL.createObjectURL(jsonBlob);
+    window.location=link;
+    //window.alert("I am here 3");
+    }
+
+	    function buildJson(){
+		var res = document.getElementById('result');
+		res.innerHTML=bf.getData();
+	    }
+
+	</script>
+</body>
+
+</html>
