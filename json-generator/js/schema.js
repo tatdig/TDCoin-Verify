@@ -30,7 +30,6 @@ var json_schema = {
         "PHONE",
         "FAX",
         "COUNTRY",
-        "SUB_COUNTRY",
         "ADDRESS"
       ],
       "properties": {

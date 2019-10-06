@@ -30,7 +30,6 @@
         "PHONE",
         "FAX",
         "COUNTRY",
-        "SUB_COUNTRY",
         "ADDRESS"
       ],
       "properties": {
