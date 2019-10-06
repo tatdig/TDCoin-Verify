@@ -7,9 +7,7 @@ var json_schema = {
   "required": [
     "DOC_TYPE",
     "ORG_ISSUER",
-    "ORG_RECIPIENT",
     "DOCUMENT",
-    "PRODUCT"
   ],
   "properties": {
     "DOC_TYPE": {
@@ -131,15 +129,11 @@ var json_schema = {
       "type": "object",
       "title": "The Org_recipient",
       "required": [
-        "NAME",
-        "WWW",
-        "EMAIL",
-        "PHONE",
-        "FAX",
-        "COUNTRY",
-        "SUB_COUNTRY",
-        "ADDRESS"
+
       ],
+      "dependencies": {
+            "NAME": { "required": ["WWW","EMAIL","PHONE","FAX","COUNTRY","SUB_COUNTRY","ADDRESS"] }
+	},
       "properties": {
         "NAME": {
           "$id": "#/properties/ORG_RECIPIENT/properties/NAME",
@@ -302,14 +296,10 @@ var json_schema = {
       "type": "object",
       "title": "The Product",
       "required": [
-        "NAME",
-        "DESCRIPTION",
-        "AGE_RESTRICTION",
-        "COUNTRY_OF_ORIGIN",
-        "WWW",
-        "QR_PRODUCT_IMAGE_URL",
-        "PRODUCT_IMAGES"
       ],
+        "dependencies": {
+            "NAME": { "required": ["DESCRIPTION","AGE_RESTRICTION","COUNTRY_OF_ORIGIN","WWW","QR_PRODUCT_IMAGE_URL","PRODUCT_IMAGES"] }
+	},
       "properties": {
         "NAME": {
           "$id": "#/properties/PRODUCT/properties/NAME",

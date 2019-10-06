@@ -27,6 +27,8 @@ PRODUCT->PRODUCT_IMAGES- pictures URLs of product "array of strings" (If product
 
 ORG_RECIPIENT- declaration of recipient organization if not declared then issuer == recipient
 
+PRODUCT- "object"
+
 PRODUCT->CATEGORY- "array of strings"
 
 PRODUCT->INGREDIENTS- "array of strings"
