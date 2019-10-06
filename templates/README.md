@@ -41,7 +41,7 @@ PRODUCT->FAITH- "array of strings"
 
 DOCUMENT->DOC_ID- issuers internal document identification
 
-DOCUMENT->ADDL_DOC- additional certificates for exmple for ingredients "array of strings"
+DOCUMENT->ADDL_DOC- additional certificates for example ingredients "array of strings"
 
 
 to be continue
