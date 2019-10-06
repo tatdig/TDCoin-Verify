@@ -238,6 +238,7 @@ var json_schema = {
           "type": "integer",
           "title": "The Doc_issue_date",
           "default": 0,
+          "minimum":946684800,
           "examples": [
             1570067537
           ]
@@ -267,6 +268,7 @@ var json_schema = {
           "type": "integer",
           "title": "The Doc_exp_date",
           "default": 0,
+          "minimum":946684800,
           "examples": [
             1664761920
           ]
@@ -371,9 +373,6 @@ var json_schema = {
           "type": "object",
           "title": "The Energy",
           "required": [
-            "calories",
-            "joules",
-            "..."
           ],
           "properties": {
             "calories": {
