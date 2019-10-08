@@ -56,7 +56,7 @@
 			"...",
 			"..."
 		],
-		"FAITH": ["neutral", "muslim", "jewish", "cristian", "..."],
+		"FAITH": ["neutral", "muslim", "jewish", "christian", "..."],
 		"COUNTRY_OF_ORIGIN": "SOME COUNTRY like Tatar to be able to write made in TATAR",
 		"WWW": "https://www.SOMERECIPIENTNAMELTD.org/.../PRODUCT_NAME.html",
 		"QR_PRODUCT_IMAGE_URL": "https://www.SOMEISSUERNAMELTD.org/PRODUCT_NAME/qr_IMAGE.svg",
