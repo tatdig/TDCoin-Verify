@@ -1,5 +1,5 @@
-# prodverify - document issue and verify
-Project aim to create a service based on TDCoin blockchain to help issue and verify whole or part of the document.
+# TDCoin-Verify - document verification system
+Project aim to create a service based on TDCoin blockchain to help verify whole or part of the document.
 Document such as ... 
 
 No more counterfeit products!
