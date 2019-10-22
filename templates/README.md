@@ -4,7 +4,7 @@ Skipped obvious fields
 
 # Mandatory fields:
 
-DOC_TYPE- document type decraration 0 - is certificate "integer"
+DOC_TYPE- document type decraration 0 - is Certificate "integer"
 
 ORG_ISSUER- declaraton of issuing organization "object"
 
