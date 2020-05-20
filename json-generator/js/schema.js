@@ -495,5 +495,8 @@ var json_schema = {
       }
     }
   }
+	"CUSTOM_CSS": {
+		"css":""
+	}
 }
 ;
