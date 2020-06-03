@@ -1,4 +1,4 @@
-# Fields description of json template
+# Fields description for json template
 
 Skipped obvious fields
 
